@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 240vh;
+    min-height: 220vh;
     font-family: Roboto;
     padding: 0;
     margin: 0;
@@ -65,13 +65,20 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
     gap: 36px;
+    flex-wrap: wrap;
+    justify-content: center;    
+
 }
+
+
 
 .hero-info-container {
     width: 450px;
@@ -80,6 +87,7 @@ ul {
     gap: 6px;
     font-size: 18px;
 }
+
 
 .hero-header {
     font-size: 48px;
@@ -98,7 +106,7 @@ ul {
 }
 
 .hero-image {
-    width: 480px;
+    width: 420px;
     height: 230px;
     background-color: grey;
     display: flex;
@@ -115,6 +123,9 @@ ul {
     align-items: center;
     gap: 50px;
     flex: 1;
+    flex-wrap: wrap;
+    padding: 24px;
+
 
 }
 
@@ -122,11 +133,18 @@ ul {
     font-size: 36px;
     font-weight: 900;
     color:#1F2937;
+    text-align: center;
 }
 
 .info-container {
     display: flex;
     gap: 24px;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .infos {
@@ -149,6 +167,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+
     
 }
 
@@ -177,6 +197,8 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding: 20px;
+
 }
 
 .signup-container {
@@ -187,7 +209,10 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
+
 
 .action {
     color:#E5E7EB
@@ -199,12 +224,13 @@ ul {
 }
 
 .button2{
-    width: 120px;
     padding: 8px 0px;
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: 900;
     border-radius: 8px;
     border: 2px solid #F9FAF8;
+    width: 120px;
+
 }
 
