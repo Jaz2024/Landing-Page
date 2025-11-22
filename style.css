@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 220vh;
+    height: 220vh;
     font-family: Roboto;
     padding: 0;
     margin: 0;
@@ -22,7 +22,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
     height: 75px;
+    padding: 20px;
 }
+
 
 a:link {
     text-decoration: none;
@@ -38,10 +40,10 @@ ul {
     padding: 0;
 }
 
-.right {    display: flex;
-
+.right {    
     display: flex;
     gap: 18px;
+    margin: 12px;
 }
 
 .left {
@@ -55,7 +57,9 @@ ul {
     justify-content: center;
     align-items: center;
     height: 75px;
+    padding: 20px;
 }
+
 
 
 .hero-container {
@@ -74,10 +78,13 @@ ul {
     justify-content: space-between;
     gap: 36px;
     flex-wrap: wrap;
-    justify-content: center;    
-
+    justify-content: center; 
+    padding: 20px;     
 }
 
+.hero > * {
+    flex-grow: 1;
+}
 
 
 .hero-info-container {
